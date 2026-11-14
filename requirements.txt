@@ -1,0 +1,19 @@
+# Core pipeline
+anthropic>=2.8
+pydantic>=2.7
+python-dotenv
+numpy
+opencv-python-headless
+Pillow
+torch                    # text/bubble detector (RT-DETR via transformers)
+transformers>=4.50
+huggingface_hub
+onnxruntime              # LaMa inpainting
+
+# Web UI (python -m manga_translator serve)
+fastapi
+uvicorn
+python-multipart
+
+# Dev
+pytest

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Manga Translator</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M4 6h24v16H14l-6 5v-5H4z' fill='%23e8590c'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="topbar" id="topbar">
+    <a class="brand" href="#/">
+      <svg viewBox="0 0 32 32" width="22" height="22" aria-hidden="true"><path d="M4 6h24v16H14l-6 5v-5H4z" fill="currentColor"/></svg>
+      Manga Translator
+    </a>
+    <nav>
+      <a href="#/">Library</a>
+      <button class="ghost" id="open-settings" type="button">
+        <span id="key-dot" class="dot" title="API key status"></span> Settings
+      </button>
+    </nav>
+  </header>
+
+  <main id="view"></main>
+
+  <dialog id="settings">
+    <form method="dialog" class="dialog-body">
+      <h2>Settings</h2>
+      <label class="field">
+        <span>Anthropic API key</span>
+        <input id="key-input" type="password" autocomplete="off" spellcheck="false" placeholder="sk-ant-...">
+      </label>
+      <label class="check"><input type="checkbox" id="key-remember"> Remember on this device</label>
+      <p class="hint" id="key-hint">Your key stays in this browser. It is sent to your server only when you start a
+        translation, held in memory for that job, and never saved to disk.</p>
+      <p class="hint" id="server-key-hint" hidden>This server also has a key configured. It is used when you leave this field empty.</p>
+      <div class="row">
+        <button type="button" id="key-check" class="secondary">Test key</button>
+        <span id="key-result" class="muted"></span>
+      </div>
+      <div class="row end">
+        <button type="button" id="key-clear" class="ghost danger">Forget key</button>
+        <button value="ok" id="key-save">Done</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="login">
+    <form class="dialog-body" id="login-form">
+      <h2>Sign in</h2>
+      <p class="hint">This server needs its access token.</p>
+      <input id="login-token" type="password" autocomplete="current-password" placeholder="Access token" required>
+      <p id="login-error" class="error" hidden></p>
+      <div class="row end"><button>Sign in</button></div>
+    </form>
+  </dialog>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

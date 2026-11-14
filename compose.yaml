@@ -1,0 +1,15 @@
+services:
+  manga-translator:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"     # drop "127.0.0.1:" to reach it from other devices (set a token!)
+    volumes:
+      - ./data/chapters:/library  # your chapters: plain folders of page images
+      - models:/models            # detector + LaMa weights, downloaded on first use
+    environment:
+      MANGA_TRANSLATOR_TOKEN: ${MANGA_TRANSLATOR_TOKEN:-}   # access token for the UI (optional)
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}             # optional server-wide key
+    restart: unless-stopped
+
+volumes:
+  models:

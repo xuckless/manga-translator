@@ -1,0 +1,19 @@
+# Environments / secrets
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Editor / OS
+.idea/
+.DS_Store
+
+# Chapter images and pipeline outputs (large, not source)
+data/
+
+# Downloaded model weights
+models/
+
+# Local-only tools (not published)
+local/

@@ -1,0 +1,20 @@
+[project]
+name = "manga-translator"
+version = "0.2.0"
+description = "Detect, translate, clean and re-letter Japanese manga pages"
+requires-python = ">=3.10"
+license = "MIT OR Apache-2.0"
+license-files = ["LICENSE-MIT", "LICENSE-APACHE"]
+
+[project.scripts]
+manga-translator = "manga_translator.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["manga_translator*"]
+
+[tool.setuptools.package-data]
+"manga_translator.web" = ["static/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-p no:anyio"
