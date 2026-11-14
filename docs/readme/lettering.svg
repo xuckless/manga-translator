@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="212" viewBox="0 0 480 212" role="img" aria-label="The same line lettered two ways: wrapped to a rectangle it runs into the balloon's outline; fitted to the balloon shape it forms a centred lozenge.">
+<title>The same line lettered two ways: wrapped to a rectangle it runs into the balloon's outline; fitted to the balloon shape it forms a centred lozenge.</title>
+<style>
+.sans { font-family: -apple-system, 'Segoe UI', Inter, Roboto, 'Helvetica Neue', Arial, sans-serif; }
+.comic { font-family: 'Comic Neue', 'Comic Sans MS', 'Chalkboard SE', 'Comic Relief', cursive, sans-serif; font-weight: 700; }
+.jp { font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', 'Noto Serif CJK JP', serif; font-weight: 600; }
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace; }
+
+</style>
+<defs>
+  <pattern id="tone" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <circle cx="3" cy="3" r="1.25" fill="#1b1a19" opacity=".5"/>
+  </pattern>
+  <pattern id="tone2" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <circle cx="2.5" cy="2.5" r=".9" fill="#1b1a19" opacity=".45"/>
+  </pattern>
+</defs>
+<rect x="0.5" y="0.5" width="479" height="211" rx="10" fill="#fbfaf7" stroke="#d9d4cb"/>
+<path d="M78.6 145.6 L50 172 L115.4 154.9" fill="#fff" stroke="#1b1a19" stroke-width="2" stroke-linejoin="round"/><ellipse cx="120" cy="96" rx="92" ry="62" fill="#fff" stroke="#1b1a19" stroke-width="2"/>
+<rect x="58" y="54" width="124" height="84" fill="none" stroke="#c92a2a" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text class="comic" x="58" y="84.5" font-size="13" fill="#1b1a19" text-anchor="start">Even if it's only three,</text>
+<text class="comic" x="58" y="100.5" font-size="13" fill="#1b1a19" text-anchor="start">they're the strongest</text>
+<text class="comic" x="58" y="116.5" font-size="13" fill="#1b1a19" text-anchor="start">three of my forces.</text>
+<path d="M318.6 145.6 L290 172 L355.4 154.9" fill="#fff" stroke="#1b1a19" stroke-width="2" stroke-linejoin="round"/><ellipse cx="360" cy="96" rx="92" ry="62" fill="#fff" stroke="#1b1a19" stroke-width="2"/>
+<text class="comic" x="360" y="68.5" font-size="13" fill="#1b1a19" text-anchor="middle">Even if</text>
+<text class="comic" x="360" y="84.5" font-size="13" fill="#1b1a19" text-anchor="middle">it's only three,</text>
+<text class="comic" x="360" y="100.5" font-size="13" fill="#1b1a19" text-anchor="middle">they're the strongest</text>
+<text class="comic" x="360" y="116.5" font-size="13" fill="#1b1a19" text-anchor="middle">three of my</text>
+<text class="comic" x="360" y="132.6" font-size="13" fill="#1b1a19" text-anchor="middle">forces.</text>
+<text class="sans" x="120" y="196" font-size="12" font-weight="700" fill="#c92a2a" text-anchor="middle">✕  wrapped to a box</text>
+<text class="sans" x="360" y="196" font-size="12" font-weight="700" fill="#e8590c" text-anchor="middle">✓  fitted to the balloon</text>
+</svg>

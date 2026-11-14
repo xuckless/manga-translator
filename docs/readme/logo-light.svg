@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="372" height="88" viewBox="0 0 372 88" role="img" aria-label="Manga Translator">
+<title>Manga Translator</title>
+<g transform="translate(6 10)">
+  <path d="M18 54 L8 70 L32 58" fill="#ffffff" stroke="#1b1a19" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="36" cy="32" rx="32" ry="26" fill="#ffffff" stroke="#1b1a19" stroke-width="3"/>
+  <path d="M17 54 L13 62 L27 56 Z" fill="#ffffff"/>
+  <text x="22" y="40" font-family="'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', 'Noto Serif CJK JP', serif" font-weight="700" font-size="19" fill="#1b1a19" opacity=".55" text-anchor="middle">あ</text>
+  <path d="M33 33 h6 m-3 -3 l3 3 l-3 3" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="51" y="41" font-family="'Comic Neue', 'Comic Sans MS', 'Chalkboard SE', 'Comic Relief', cursive, sans-serif" font-weight="800" font-size="22" fill="#e8590c" text-anchor="middle">A</text>
+</g>
+<text x="90" y="56" font-family="-apple-system, 'Segoe UI', Inter, Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="30" letter-spacing="-0.5" fill="#1b1a19">manga<tspan fill="#e8590c">translator</tspan></text>
+</svg>
